@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://testschool.edu.in/sitemap.xml
+
+# Disallow certain directories
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+
+# Allow search engines to crawl CSS and JS files
+Allow: /css/
+Allow: /js/
+Allow: /assets/
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
